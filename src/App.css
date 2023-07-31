@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  user-select: none;
+}
+
+html,
+body {
+  margin: 0;
+  height: 0;
+}
+
+header {
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+  padding: 1.4em 0;
+}
+
+footer {
+  margin-top: 3em;
+  text-align: center;
+  background-color: #FF5A5F;
+  color: #FFFFFF;
+  padding: 1em;
+}
+
+.header-container,
+.main-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.hero-img-container {
+  padding: 2em 0;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img {
+  width: 600px;
+}
+
+.main-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 400px;
+}
+
+.main-title-container h1 {
+  font-size: 2.2rem;
+  margin: 0 0 0.3em 0;
+}
+
+.main-title-container p,
+.main-title-container span {
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.rating-and-location-container {
+  display: flex;
+  align-items: baseline;
+  gap: 0.3em;
+}
+
+.rating-and-location-container span {
+  display: flex;
+  align-items: center;
+  gap: 0.15em;
+  color: #918E9B;
+}
+
+ul,
+li {
+  margin: 2em 0 0 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  gap: 2.5em;
+}
+
+ul p {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.main-image {
+  width: 220px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.lesson {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+  width: 200px;
+  position: relative;
+}
+
+.star {
+  width: 15px;
+}
+
+.price-section {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.batch {
+  width: 100px;
+  background-color: #FFFFFF;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px;
+  left: 10px;
+  line-height: 2;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.batch p {
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
